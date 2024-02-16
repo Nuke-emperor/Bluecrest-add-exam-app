@@ -10,6 +10,11 @@ include("network_students/add_network_stu.sm_4.php");
 #networking rout end
 
 
+#for search  backend dir
+include_once("search.php");
+#for search  backend dir
+
+
 
 # software route start
 include("software_students/add_software_stu.sm_1.php");

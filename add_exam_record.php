@@ -75,6 +75,7 @@
                   </div>
 
                     
+                  
                   <div class="col-md-6 ">
                     <input type="text" class="form-control" name="module_1_exam" placeholder="module 1 grade"  >
                   </div>
@@ -82,16 +83,18 @@
                   <div class="col-md-6 ">
                     <input type="text" class="form-control" name="module_2_exam" placeholder="module 2 grade"  >
                   </div>
-
+                  
                   <div class="col-md-12 ">
                     <input type="text" class="form-control" name="module_3_exam" placeholder="module 3 grade"  >
                   </div>
-
                 
-
                   <div class="col-md-12 text-center">
                     <input type="submit" name="sem1_btn_networking" class="btn btn-primary" value="Add Student">
                   </div>
+                  
+                  <div class="col-md-6 ">
+                   <input type="hidden" value="<?=$_SESSION['id'];?>" class="form-control" name="teacher_id"  hidden>
+                 </div>
 
                 </form>
               </div>
@@ -123,6 +126,10 @@
 
                     <div class="col-md-12 ">
                     <input type="text" class="form-control" name="module_3_exam" placeholder="module 3 grade"  >
+                  </div>
+
+                   <div class="col-md-6 ">
+                    <input type="hidden" value="<?=$_SESSION['id'];?>" class="form-control" name="teacher_id"   hidden>
                   </div>
 
                 
@@ -165,7 +172,9 @@
                     <input type="text" class="form-control" name="module_3_exam" placeholder="module 3 grade"  >
                   </div>
 
-                
+                 <div class="col-md-6 ">
+                    <input type="hidden" value="<?=$_SESSION['id'];?>" class="form-control" name="teacher_id"  hidden>
+                  </div>
 
                   <div class="col-md-12 text-center">
                    <input type="submit" name="sem3_btn_networking" class="btn btn-primary" value="Add Student">
@@ -206,7 +215,9 @@
                     <input type="text" class="form-control" name="module_3_exam" placeholder="module 3 grade"  >
                   </div>
 
-                
+                 <div class="col-md-6 ">
+                    <input type="hidden" value="<?=$_SESSION['id'];?>" class="form-control" name="teacher_id"  hidden>
+                  </div>
 
                   <div class="col-md-12 text-center">
                    <input type="submit" name="sem4_btn_networking" class="btn btn-primary" value="Add Student">
@@ -301,7 +312,9 @@
                     <input type="text" class="form-control" name="module_3_exam" placeholder="module 3 grade"  >
                   </div>
 
-                
+                 <div class="col-md-6 ">
+                    <input type="hidden" value="<?=$_SESSION['id'];?>" class="form-control" name="teacher_id"   hidden>
+                  </div>
 
                   <div class="col-md-12 text-center">
                      <input type="submit" name="sem1_btn_software" class="btn btn-primary" value="Add Student">
@@ -342,7 +355,9 @@
                     <input type="text" class="form-control" name="module_3_exam" placeholder="module 3 grade"  >
                   </div>
 
-                
+                 <div class="col-md-6 ">
+                    <input type="hidden" value="<?=$_SESSION['id'];?>" class="form-control" name="teacher_id"   hidden>
+                  </div>
 
                   <div class="col-md-12 text-center">
                         <input type="submit" name="sem2_btn_software" class="btn btn-primary" value="Add Student">
@@ -379,7 +394,9 @@
                         <input type="text" class="form-control" name="module_3_exam" placeholder="module 3 grade"  >
                       </div>
 
-                  
+                   <div class="col-md-6 ">
+                    <input type="hidden" value="<?=$_SESSION['id'];?>" class="form-control" name="teacher_id"  hidden>
+                  </div>
 
                       <div class="col-md-12 text-center">
                             <input type="submit" name="sem3_btn_software" class="btn btn-primary" value="Add Student">
@@ -417,6 +434,10 @@
 
                     <div class="col-md-12 ">
                     <input type="text" class="form-control" name="module_3_exam" placeholder="module 3 grade"  >
+                  </div>
+
+                   <div class="col-md-6 ">
+                    <input type="hidden" value="<?=$_SESSION['id'];?>" class="form-control" name="teacher_id"  hidden>
                   </div>
 
                   <div class="col-md-12 text-center">

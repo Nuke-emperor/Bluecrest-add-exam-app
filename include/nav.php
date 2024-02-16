@@ -47,11 +47,12 @@
     </div><!-- End Logo -->
 
     <div class="search-bar">
-      <form class="search-form d-flex align-items-center" method="POST" action="#">
-        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
-        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      <form class="search-form d-flex align-items-center" method="POST" action="fresh_search_page.php">
+        <input type="text" name="search" placeholder="Search" title="Search For Studen">
+        <button type="submit" title="Search" name="search_btn"><i class="bi bi-search"></i></button>
       </form>
-    </div><!-- End Search Bar -->
+    </div>
+    <!-- End Search Bar -->
 
 
     <nav class="header-nav ms-auto">
