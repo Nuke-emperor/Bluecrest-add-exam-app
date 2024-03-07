@@ -61,9 +61,8 @@
                 </ul>
 
                 <!-- add semester 1 networking -->
-                <div class="tab-content pt-2">        
-                  <div class="tab-pane show active fade pt-3" id="semester-1">
-                    
+              <div class="tab-content pt-2">        
+                <div class="tab-pane show fade pt-3" id="semester-1">   
                 <form  method="post">
                     <div class="row gy-4">
                   <div class="col-md-6 ">
@@ -101,7 +100,7 @@
             </div>
 
                 <!-- add semester 2 networking -->
-                  <div class="tab-pane fade pt-3" id="semester-2">
+                  <div class="tab-pane fade pt-3 active" id="semester-2">
                     <!-- Change Password Form -->
                 <form method="post">
                   <div class="row gy-4">
@@ -145,7 +144,7 @@
 
                 
                             <!-- add semester 3 networking -->
-                  <div class="tab-pane fade pt-3" id="semester-3">
+                  <div class="tab-pane fade pt-3 active" id="semester-3">
                     
                   <form  method="post">
                 <div class="row gy-4">

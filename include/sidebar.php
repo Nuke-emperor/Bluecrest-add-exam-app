@@ -44,14 +44,24 @@
       <i class="bi bi-person"></i>
       <span>Profile</span>
     </a>
-  </li><!-- End Profile Page Nav -->
+  </li>
+  
+  
+  
+  <!-- End Profile Page Nav -->
 
-  <!-- <li class="nav-item">
-    <a class="nav-link collapsed" href="pages-contact.php">
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="software_students.php">
       <i class="bi bi-envelope"></i>
-      <span>Contact</span>
+      <span>Software students records</span>
     </a>
-  </li> -->
+  </li>
+    <li class="nav-item">
+    <a class="nav-link collapsed" href="networking_students.php">
+      <i class="bi bi-envelope"></i>
+      <span>network students records</span>
+    </a>
+  </li>
   <!-- End Contact Page Nav -->
 
   <!-- add student modal -->

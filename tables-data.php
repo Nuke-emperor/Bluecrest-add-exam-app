@@ -44,11 +44,11 @@
                     <td>63%</td>
                   </tr>
                   <tr>
-                    <td>Willow Gilliam</td>
-                    <td>3497</td>
-                    <td>Amqui</td>
-                    <td>2009/29/11</td>
-                    <td>30%</td>
+                    <td>Kylie Bishop</td>
+                    <td>3147</td>
+                    <td>Norman</td>
+                    <td>2005/09/08</td>
+                    <td>63%</td>
                   </tr>
                   <tr>
                     <td>Blossom Dickerson</td>

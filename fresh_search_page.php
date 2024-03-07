@@ -19,7 +19,6 @@
                 <th scope="col">STATUS</th>
                 </tr>
             </thead>
-
         <tbody>
                <?php 
 
@@ -33,11 +32,13 @@ if(isset($_POST['search_btn'])){
     student_name  LIKE '%$search_data_input%' ";
   $result_search_09 =   mysqli_query($connection, $tables);
      $checking = mysqli_num_rows($result_search_09);
-
 }
-                      ?>
-                      <?php if($checking > 0):?>
-                        <?php while($networking_sem_ = mysqli_fetch_assoc($result_search_09)):?>
+?>
+
+<?php if($checking > 0):?>
+  <?php while($networking_sem_ = mysqli_fetch_assoc($result_search_09)):?>
+    <table>  
+      <tbody>
             <tr>
                 <td><?=$networking_sem_['ROLL_NUMBER'];?></td>
             </tr>
@@ -53,12 +54,15 @@ if(isset($_POST['search_btn'])){
              <tr>
                 <td><?=$networking_sem_['MODULE_3'];?></td>
             </tr>
+              <tr>
+                <td><?=$networking_sem_['teacher_id'];?></td>
+            </tr>
              <?php endwhile;?>
                       <?php else:?>
                         <center>
                           <p> No Record Found</p>
                         </center>
                       <?php endif;?>
-        </tbody>
+      </tbody>
     </table>
 </section>
