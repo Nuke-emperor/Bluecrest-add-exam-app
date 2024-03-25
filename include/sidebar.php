@@ -19,8 +19,6 @@
     </a>
   </li>
 
-  <!-- End Forms Nav -->
-
   <li class="nav-item">
     <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
       <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span><i class="bi bi-chevron-down ms-auto"></i>
@@ -35,8 +33,6 @@
     </ul>
   </li>
  
-  <!-- End Icons Nav -->
-
   <li class="nav-heading">Pages</li>
 
   <li class="nav-item">
@@ -46,10 +42,6 @@
     </a>
   </li>
   
-  
-  
-  <!-- End Profile Page Nav -->
-
   <li class="nav-item">
     <a class="nav-link collapsed" href="software_students.php">
       <i class="bi bi-envelope"></i>
@@ -62,42 +54,13 @@
       <span>network students records</span>
     </a>
   </li>
-  <!-- End Contact Page Nav -->
-
-  <!-- add student modal -->
-<!-- 
-
-    <li class="nav-item">
-    
-    <a href="add_student.php" class="nav-link collapsed">
-      <i class="bi bi-plus"></i>
-      <span> Add Student </span>
-    </a>
-  </li> -->
-
-  <!-- <li class="nav-item">
-    
-    <a href="add_exam_records.php" class="nav-link collapsed">
-      <i class="bi bi-plus"></i>
-      <span> Add Exam Records </span>
-    </a>
-  </li> -->
-
-
-
-
-  
-
-
+ 
   <li class="nav-item">
     <a class="nav-link collapsed" href="pages-error-404.php">
       <i class="bi bi-dash-circle"></i>
       <span>Error 404</span>
     </a>
   </li>
-
- 
-
 </ul>
 
 </aside><!-- End Sidebar-->

@@ -72,8 +72,6 @@
                   <div class="col-md-6">
                     <input type="text" name="name" class="form-control" placeholder="Full Name" >
                   </div>
-
-                    
                   
                   <div class="col-md-6 ">
                     <input type="text" class="form-control" name="module_1_exam" placeholder="module 1 grade"  >
